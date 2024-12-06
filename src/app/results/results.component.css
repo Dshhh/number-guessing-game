@@ -1,0 +1,112 @@
+/* General background styling with Flexbox centering */
+.d-flex {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Full viewport height */
+    background: linear-gradient(135deg, #3b3a6e, #f8cdda);
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.75); /* Dark background for the content */
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* Title styling */
+  .result-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #ffcc00;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Section title styling */
+  .result-section-title {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  /* Table styling for high scores */
+  .result-table {
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  .result-table th, .result-table td {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .result-table th {
+    background-color: #444;
+    font-weight: bold;
+  }
+  
+  .result-table td {
+    background-color: #555;
+    text-align: center;
+  }
+  
+  /* Guess history list group styling */
+  .result-list-group {
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  .result-list-group li {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Game summary styling */
+  .result-summary {
+    color: #bbb;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  
+  /* Play Again button styling */
+  .btn-play-again {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  .btn-play-again:hover {
+    background-color: #ffab00;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 576px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .result-title {
+      font-size: 2.5rem;
+    }
+  
+    .result-section-title {
+      font-size: 1.5rem;
+    }
+  
+    .result-summary {
+      font-size: 1rem;
+    }
+  }
+  

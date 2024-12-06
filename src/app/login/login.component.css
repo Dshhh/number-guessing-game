@@ -1,0 +1,58 @@
+/* Set a gradient background for the full page */
+.bg-gradient {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    height: 100vh;
+  }
+  
+  /* Styling the login form container */
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-label {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  /* Input field styling */
+  .login-input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    font-size: 1.1rem;
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #ffab00;
+  }
+  
+  /* Validation message styling */
+  .text-danger {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive design: make the form look good on mobile */
+  @media (max-width: 576px) {
+    .login-form {
+      padding: 1.5rem;
+    }
+  
+    .login-title {
+      font-size: 2rem;
+    }
+  }
+  

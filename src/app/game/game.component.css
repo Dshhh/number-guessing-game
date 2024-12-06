@@ -1,0 +1,119 @@
+/* Set a gradient background for the full page */
+.bg-gradient {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    height: 100vh;
+  }
+  
+  /* Styling the game card container */
+  .game-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Game title and description */
+  .game-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    color: #ffcc00;
+  }
+  
+  .game-description {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  /* Label and select input styling */
+  .game-label {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .game-select {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    font-size: 1.1rem;
+  }
+  
+  /* Input and button styling */
+  .game-input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    font-size: 1.1rem;
+  }
+  
+  .game-button {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-button:hover {
+    background-color: #ffab00;
+  }
+  
+  /* Feedback message */
+  .game-message {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Guesses history */
+  .game-history {
+    font-size: 1rem;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  /* Button group at the bottom */
+  .game-actions .game-action-btn {
+    width: 100%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .game-actions .game-action-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling the game buttons (reset, results, logout) */
+  .game-action-btn.btn-warning {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .game-action-btn.btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .game-action-btn.btn-danger {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  /* Add some padding to the action buttons */
+  .game-actions .game-action-btn {
+    padding: 12px 0;
+  }
+  
+  /* Responsive design: ensure the card looks good on small screens */
+  @media (max-width: 576px) {
+    .game-card {
+      padding: 1.5rem;
+    }
+  
+    .game-title {
+      font-size: 2rem;
+    }
+  }
+  
